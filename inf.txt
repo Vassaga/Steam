@@ -1,5 +1,11 @@
-(env) C:\Users\Ћомов¬\Documents\django-222\steam\git\my_steam>git stash
-(env) C:\Users\Ћомов¬\Documents\django-222\steam\git\my_steam>git pull origin main
+установка ЕНВ
+py -m venv env 
+=========================================================
+https://github.com/TheZhenok/my_steam.git
+=========================================================
+сохр библиотеки и вываливаем
+pip freeze > bibls
+pip install -r bibls
 ==========================================================================================
 1. ”далить всЄ, кроме __init__ в папке migrations
 2. ”далить файл db.sqlite3
