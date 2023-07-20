@@ -1,0 +1,158 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+    font-family: 'Franklin Gothic ';
+}
+.card {
+    width: 70%;
+    min-height: 270px;
+    box-shadow: 0 5px 10px black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 83%;
+    height: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__inforation {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.image {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(
+        90deg,
+        gray,
+        rgb(54, 54, 54)
+    );
+    border-radius: 10px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+}
+.price {
+    font-weight: 100;
+    font-size: 28px;
+    color: #9D8B8B;
+}
+.name {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+.genres {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.genre {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #02D1FF;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+}
+.rate {
+    color: green;
+    font-size: 36px;
+}
+
+.aa {
+    width: 70%;
+    height: 270px;
+    box-shadow: 0 5px 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form.card {
+    width: 80%;
+}
+
+.form__content {
+    width: 83%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputs {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    width: 100%;
+}
+.main__info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+}
+.main__info input {
+    width: 80%;
+    height: 30px;
+}
+.sbt {
+    width: 160px;
+    height: 87px;
+    background-color: #2CCC29;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+    border: none;
+    font-size: 34px;
+}
+
+form.card_comment {
+    width: 90%;
+    height: 50%;
+}
+
+.form__content__comment {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment__info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+}
+
+.comment__info input {
+    width: 80%;
+    height: 40px;
+}
