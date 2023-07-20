@@ -1,0 +1,40 @@
+(env) C:\Users\Ћомов¬\Documents\django-222\steam\git\my_steam>git stash
+(env) C:\Users\Ћомов¬\Documents\django-222\steam\git\my_steam>git pull origin main
+==========================================================================================
+1. ”далить всЄ, кроме __init__ в папке migrations
+2. ”далить файл db.sqlite3
+3. git stash
+4. git pull origin main
+5. “ак же удалить всЄ, что и в первом и втором пункте
+6. py manage.py makemigrations
+7. py manage.py migrate
+8. py manage.py createsuperuser
+==========================================================================================
+
+python manage.py runserver 8000
+
+
+Stepkar
+Bnnm8899
+
+
+GIT DELETE ALL SET
+git config --global --uset-all
+
+
+
+            "X-RapidAPI-Key": "b52c10efa4mshb49d9a05fb930a7p1a755fjsn735e84205bb2",
+            "X-RapidAPI-Host": "cheapshark-game-deals.p.rapidapi.com"
+
+
+breakpoint()
+
+(Pdb)
+<QueryDict: {'csrfmiddlewaretoken': ['bJCgNiwhHzP61D6IMUwMLIwMwicSL5uwVPjUGKKbMkSbZBVPyoEqNZFU4oMTtkRO'], 'genre': ['on', 'on', 'on', 'on']}>
+(Pdb) request.POST
+(Pdb) <QueryDict: {'csrfmiddlewaretoken': ['K2PiDGaFo07cYwhHrm5KMrzXGgNEJVDJu8wWw8oztLahWu6OdQdoOII5emnFra01'], 'name': ['Fifa'], 'price': ['1500'], 'datetime_created': ['2005-07-01'], 'Company': ['Fasa'], 'genre_20': ['on'], 'genre_19': ['on'], 'genre_13': ['on']}>
+
+
+C:\Users\Ћомов¬\Documents\django-222\new>cd steam
+C:\Users\Ћомов¬\Documents\django-222\new\steam>env\scripts\activate
+(env) C:\Users\Ћомов¬\Documents\django-222\new\steam>code .
