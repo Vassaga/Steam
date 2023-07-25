@@ -1,5 +1,6 @@
 import datetime
 
+
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -70,6 +71,11 @@ class Game(models.Model):
         to=Genre,
         related_name='games'
     )
+    main_imgor = models.ImageField(
+        verbose_name='изображение',
+        upload_to='games/',
+        default='games/unknown.png'
+    )
 
     class Meta:
         ordering = ('price', 'name')
@@ -79,6 +85,33 @@ class Game(models.Model):
     def __str__(self) -> str:
         return f'{self.company} | {self.name} | {self.price}$'
 
+class Screen(models.Model):
+    """Screnns for game in viewGame"""
+    name = models.CharField(
+        verbose_name='скриншот',
+        max_length=20,
+        
+        )
+
+    screen_image = models.ImageField(
+        verbose_name='скрин',
+        upload_to='games/',
+        default='games/unknown.png')
+
+    game = models.ForeignKey(
+        verbose_name='игра',
+        to=Game, 
+        on_delete=models.CASCADE,
+        related_name='game_screens',
+        )
+    
+    class Meta:
+        ordering = ('name',)
+        verbose_name = 'скриншот'
+        verbose_name_plural = 'скриншоты'
+
+    def __str__(self) -> str:
+        return self.name
 
 class Comment(models.Model):
 
